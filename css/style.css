@@ -1,0 +1,196 @@
+/*main*/
+body {
+    background: #FAF8F8;
+}
+p {
+    font-family: 'open sans', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'bebas neue', sans-serif;
+}
+
+/*Fontid*/
+.bebas-neue {
+    font-family: 'Bebas Neue', sans-serif;
+}
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Tausta värvid*/
+/*neutraalne*/
+.bg-n-200 {
+    background-color: #FAF8F8;
+    color: #000;
+    border-width: 0px;
+    border-radius: 0px;
+}
+.bg-n-200:hover {
+    background-color: #F0EDED;
+    border-width: 1px;
+}
+.bg-n-400 {
+    background-color: #F0EDED;
+}
+.bg-n-1400 {
+    background-color: #403D3D;
+    color: #fff;
+}
+.bg-n-1400:hover {
+    background-color: #817c7c;
+    color: #fff;
+}
+
+/*pruun*/
+.bg-dark-brown {
+    background-color: #592506;
+    color: #fff;
+}
+.bg-dark-brown:hover {
+    background-color: #865b42;
+    color: #fff;
+}
+.bg-dark-brown-static {
+    background-color: #592506;
+    color: #fff;
+}
+.bg-super-brown {
+    background-color: #401700;
+    color: #fff;
+}
+
+/*roheline*/
+.bg-green {
+    background-color: #737310;
+    color: #fff;
+}
+.bg-green:hover {
+    background-color: #89893e;
+    color: #fff;
+}
+.bg-green:active {
+    background-color: #000000;
+    color: #fff;
+}
+.bg-green-static {
+    background-color: #737310;
+    color: #fff;
+}
+
+/*sinine*/
+.bg-blue {
+    background-color: #054D4C;
+    color: #fff;
+}
+.bg-blue:hover {
+    background-color: #428987;
+    color: #fff;
+}
+.bg-blue-static {
+    background-color: #054D4C;
+    color: #fff;
+}
+.bg-blue-500 {
+    background-color: #73BBBA;
+    color: #000;
+}
+.bg-blue-500:hover {
+    background-color: #4dafae;
+    color: #000;
+}
+
+
+
+/*Tekst*/
+.txt-black {
+    color: #000;
+}
+.txt-black:hover {
+    color: #737310;
+}
+.txt-green {
+    color: #737310;
+}
+.txt-ls2 {
+    letter-spacing: 2px;
+}
+
+.cta-txt {
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+.txt-b {
+    font-weight: bold;
+}
+.a-white {
+    color: rgb(255, 255, 255);
+    text-decoration-color:rgba(255, 255, 255, 0.3);
+}
+.a-white:hover {
+    color:#DFDF7A;
+    text-decoration-color: rgba(255, 255, 255, 0.79)
+}
+.txt-super {
+    font-size: 61px;
+}
+
+/*testi vari*/
+.txt-shdw {
+    font-size: 20px;
+    text-shadow: 0 0 5px #073433;
+  -moz-text-shadow: 0 0 5px #073433;
+  -webkit-text-shadow: 0 0 5px #073433;
+}
+.txt-cat {
+    letter-spacing: 2px;
+    font-size: 26px;
+    padding-top: 20px;
+}
+
+
+/*ID'd*/
+#info {
+    text-align: end;
+}
+@media screen and (max-width: 500px) {
+    .hide-text {
+        display: none;
+    }
+}
+
+/*uitklassid*/
+.center {
+    width: 150px;
+      margin: 40px auto;
+      
+    }
+.h-48 {
+    max-width: 120px;
+    max-height: 48px;
+}
+.h-item {
+    max-height: 180px;
+    max-width: 120px;
+}
+.d-mobile {
+    display: none;
+}
+.d-none-f {
+    display: flex;
+}
+.btn-bg-400 {
+    background-color: #DFDBDB;
+}
+.focus-ring {
+    --bs-focus-ring-color: ##428987;
+}
+
+/*Akordion*/
+.accordion {
+    --bs-accordion-btn-bg: #F0EDED;
+    --bs-accordion-active-bg: #F0EDED;
+    --bs-accordion-btn-focus-border-color: #428987;
+    --bs-accordion-border-color: #F0EDED;
+    --bs-accordion-btn-focus-box-shadow:none;
+}
